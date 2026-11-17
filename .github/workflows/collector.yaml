@@ -2,18 +2,16 @@ name: Collector
 
 # PRs: test and build the image.
 # Push to main: the same, then push the image to ghcr.io.
-# Nothing runs on the data branch (collector output only).
+# Only runs when something under collector/ changes. Nothing runs on the data branch.
 on:
   push:
     branches: [main]
     paths:
       - collector/**
-      - .github/workflows/collector.yaml
   pull_request:
     branches: [main]
     paths:
       - collector/**
-      - .github/workflows/collector.yaml
   workflow_dispatch:
 
 # No permissions by default. Each job asks for what it needs.
