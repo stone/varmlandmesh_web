@@ -1,0 +1,2 @@
+# MeshCore public key prefix in a test fixture (public data broadcast in adverts), not a secret.
+1071bf7f0534b98d6d91472bb1c0505538354b1d:collector/meshcore_test.go:generic-api-key:31
