@@ -1,0 +1,39 @@
+# Lokal utveckling: Hugo-servern och collectorn tillsammans.
+#
+#   docker compose up --build
+#
+# Sajten: http://localhost:1313
+# Noddata: http://localhost:1313/data/nodes.json (fylls på efter hand)
+services:
+  hugo:
+    image: ghcr.io/gohugoio/hugo:v0.169.0@sha256:a146e0639230bbc73358e6563240f0a6103466f0390b80a457c775068ec802a9
+    # renderToMemory: skriv inte till public/ i repot.
+    command: server --renderToMemory --bind 0.0.0.0 --port 1313 --baseURL http://localhost:1313/
+    ports:
+      - "1313:1313"
+    environment:
+      # go.mod kräver nyare Go än den som finns i imagen.
+      GOTOOLCHAIN: auto
+      # Collectorns data serveras under /data/.
+      HUGO_STATICDIR1: /collector
+    volumes:
+      - .:/project
+      # Bara nodes.json, inte collectorns state.
+      - collector-www:/collector/data:ro
+      - hugo-cache:/cache
+      - hugo-go:/go
+
+  collector:
+    build: ./collector
+    environment:
+      OUTPUT_FILE: /out/nodes.json
+      PUBLISH_INTERVAL: 1m
+    volumes:
+      - collector-data:/data
+      - collector-www:/out
+
+volumes:
+  collector-data:
+  collector-www:
+  hugo-cache:
+  hugo-go:

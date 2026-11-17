@@ -13,3 +13,15 @@ updates:
       interval: weekly
     cooldown:
       default-days: 7
+  - package-ecosystem: gomod
+    directory: /collector
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+  - package-ecosystem: docker
+    directory: /collector
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7

@@ -1,0 +1,57 @@
+{{- /*
+Interactive map of MeshCore nodes. Usage: {{< karta >}}
+
+Data comes from nodes.json published by collector/ to the "data" branch.
+Under `hugo server` it is read from /data/nodes.json instead (see compose.yaml).
+*/ -}}
+{{- $cfg := site.Params.map -}}
+{{- $url := $cfg.dataUrl -}}
+{{- if hugo.IsServer }}{{ $url = "/data/nodes.json" }}{{ end -}}
+
+{{- $lcss := resources.Get "vendor/leaflet/leaflet.css" | fingerprint -}}
+{{- $ljs := resources.Get "vendor/leaflet/leaflet.js" | fingerprint -}}
+{{- $css := resources.Get "css/karta.css" | minify | fingerprint -}}
+{{- $js := resources.Get "js/karta.js" | js.Build (dict "minify" true "target" "es2020") | fingerprint -}}
+
+<link rel="stylesheet" href="{{ $lcss.RelPermalink }}" integrity="{{ $lcss.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+<div class="karta"
+  data-url="{{ $url }}"
+  data-center="{{ delimit $cfg.center "," }}"
+  data-zoom="{{ $cfg.zoom }}">
+
+  <div class="karta-controls">
+    <fieldset>
+      <legend>Visa</legend>
+      <label><input type="checkbox" name="type" value="repeater" checked><span class="karta-dot karta-t-repeater"></span>Repeaters</label>
+      <label><input type="checkbox" name="type" value="room" checked><span class="karta-dot karta-t-room"></span>Room servers</label>
+      <label><input type="checkbox" name="type" value="companion" checked><span class="karta-dot karta-t-companion"></span>Companions</label>
+      <label><input type="checkbox" name="type" value="sensor" checked><span class="karta-dot karta-t-sensor"></span>Sensorer</label>
+      <label><input type="checkbox" name="links" checked><span class="karta-line"></span>Grannlänkar</label>
+    </fieldset>
+    <label class="karta-age">Hörd inom
+      <select name="age">
+        <option value="24">1 dygn</option>
+        <option value="168">7 dagar</option>
+        <option value="720" selected>30 dagar</option>
+        <option value="2160">90 dagar</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="karta-map" role="region" aria-label="Karta över MeshCore-noder i Värmland"></div>
+  <p class="karta-status" aria-live="polite">Hämtar noder…</p>
+  <noscript><p>Kartan kräver JavaScript.</p></noscript>
+
+  <details class="karta-list">
+    <summary>Lista över noder</summary>
+    <table>
+      <thead><tr><th>Namn</th><th>Typ</th><th>Senast hörd</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </details>
+</div>
+
+<script src="{{ $ljs.RelPermalink }}" integrity="{{ $ljs.Data.Integrity }}"></script>
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
