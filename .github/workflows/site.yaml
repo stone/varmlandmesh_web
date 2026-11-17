@@ -2,10 +2,12 @@ name: Site
 
 # PRs: build, test and security checks only.
 # Push to main: the same checks, then deploy to GitHub Pages.
+# Nothing runs on the data branch (collector output only).
 on:
   push:
     branches: [main]
   pull_request:
+    branches: [main]
 
 # No permissions by default. Each job asks for what it needs.
 permissions: {}
@@ -96,10 +98,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: pipx run "zizmor==${ZIZMOR_VERSION}" --format=github .github/
+      # Scans all refs except the data branch, which holds only generated nodes.json.
+      # Custom --log-opts replace gitleaks' defaults, so they are repeated here.
       - name: Scan git history for secrets (gitleaks)
         run: |
           go install "github.com/zricethezav/gitleaks/v8@${GITLEAKS_VERSION}"
-          "$(go env GOPATH)/bin/gitleaks" git --redact --verbose .
+          "$(go env GOPATH)/bin/gitleaks" git --redact --verbose \
+            --log-opts="--full-history --diff-filter=tuxdb --exclude=refs/remotes/origin/data --all" .
 
   deploy:
     needs: [build, test, security]
