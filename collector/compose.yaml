@@ -1,0 +1,19 @@
+# Drift: kör collectorn och publicera nodes.json till GitHub.
+#
+#   cp .env.example .env   # fyll i GITHUB_TOKEN
+#   docker compose up -d
+#
+# Imagen byggs av .github/workflows/collector.yaml (amd64 och arm64).
+# Bygg lokalt i stället: docker compose up -d --build
+services:
+  collector:
+    image: ghcr.io/stone/varmlandmesh-collector:latest
+    build: .
+    pull_policy: always
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - state:/data
+
+volumes:
+  state:

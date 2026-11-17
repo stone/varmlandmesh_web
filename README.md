@@ -13,6 +13,15 @@ hugo server
 
 Öppna http://localhost:1313.
 
+Eller med Docker, tillsammans med [collectorn](collector/) som samlar noddata från MQTT:
+
+```sh
+docker compose up --build
+```
+
+Noddata finns sedan på http://localhost:1313/data/nodes.json.
+Den fylls på efter hand, eftersom noder skickar sin position sällan.
+
 ## Ändra innehåll
 
 | Vad | Var |

@@ -36,6 +36,11 @@ menu:
         icon: discord
 
 params:
+  map:
+    # Publiceras av collector/ till grenen "data". Under hugo server används /data/nodes.json.
+    dataUrl: https://raw.githubusercontent.com/stone/varmlandmesh_web/data/nodes.json
+    center: [59.6, 13.2]
+    zoom: 8
   description: Ett MeshCore-nät för Värmland. Textmeddelanden över radio, utan mobilnät och internet.
   navbar:
     displayTitle: true
