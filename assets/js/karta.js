@@ -24,7 +24,7 @@ function init(root) {
   const map = L.map(root.querySelector(".karta-map"), {
     preferCanvas: true,
     scrollWheelZoom: false, // aktiveras vid klick, så sidan går att scrolla förbi kartan
-  }).setView(center, Number(root.dataset.zoom) || 8);
+  }).setView(center, Number(root.dataset.zoom) || 6);
   map.once("click focus", () => map.scrollWheelZoom.enable());
 
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -112,7 +112,7 @@ function init(root) {
     }
 
     if (!fitted && nodes.length) {
-      map.fitBounds(L.latLngBounds(nodes.map((n) => [n.lat, n.lon])), { padding: [30, 30], maxZoom: 10 });
+      map.fitBounds(L.latLngBounds(nodes.map((n) => [n.lat, n.lon])), { padding: [30, 30], maxZoom: 8 });
       fitted = true;
     }
 
