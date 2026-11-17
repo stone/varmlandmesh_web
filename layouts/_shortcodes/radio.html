@@ -1,0 +1,5 @@
+{{- /* Print one value from data/radio.yaml. Usage: {{< radio "frequency" >}} */ -}}
+{{- $key := .Get 0 -}}
+{{- $v := index hugo.Data.radio $key -}}
+{{- if not $v }}{{ errorf "radio shortcode: unknown key %q in %s" $key .Position }}{{ end -}}
+{{- $v -}}

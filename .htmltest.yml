@@ -1,0 +1,6 @@
+# Checks the built site in public/. External links are not checked (they can be down for reasons we do not control).
+DirectoryPath: public
+CheckExternal: false
+IgnoreDirectoryMissingTrailingSlash: true
+# Hextra's sidebar uses href="#" links.
+IgnoreInternalEmptyHash: true

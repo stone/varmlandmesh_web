@@ -1,0 +1,7 @@
+{{- /* Repeater CLI commands for data/radio.yaml. Call with {{% radio-cmd %}} so it renders as a normal code block. */ -}}
+{{- with hugo.Data.radio }}
+```text
+set radio {{ .frequency }},{{ .bandwidth }},{{ .sf }},{{ .cr }}
+reboot
+```
+{{ end -}}

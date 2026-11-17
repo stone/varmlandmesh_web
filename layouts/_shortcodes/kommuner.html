@@ -1,0 +1,9 @@
+{{- /* Table of kommun codes from data/kommuner.yaml. */ -}}
+<table>
+  <thead><tr><th>Kommun</th><th>Kod</th><th>Exempel på namn</th></tr></thead>
+  <tbody>
+  {{- range hugo.Data.kommuner }}
+    <tr><td>{{ .namn }}</td><td><code>{{ .kod }}</code></td><td><code>SE{{ .kod }}-Plats</code></td></tr>
+  {{- end }}
+  </tbody>
+</table>

@@ -1,0 +1,48 @@
+baseURL: https://varmlandmesh.se/
+locale: sv-se
+defaultContentLanguage: sv
+title: Värmland Mesh
+enableRobotsTXT: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      # Needed for the HTML wrappers on the front page.
+      unsafe: true
+
+menu:
+  main:
+    - name: Kom igång
+      pageRef: /kom-igang
+      weight: 1
+    - name: Repeater
+      pageRef: /repeater
+      weight: 2
+    - name: Karta
+      pageRef: /karta
+      weight: 3
+    - name: Sök
+      weight: 4
+      params:
+        type: search
+    - name: Discord
+      weight: 5
+      url: https://discord.com/invite/gchSzHkPGG
+      params:
+        icon: discord
+
+params:
+  description: Ett MeshCore-nät för Värmland. Textmeddelanden över radio, utan mobilnät och internet.
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  footer:
+    displayCopyright: false
+    displayPoweredBy: true
+  theme:
+    default: system
+    displayToggle: true

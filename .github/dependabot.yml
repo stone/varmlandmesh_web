@@ -1,0 +1,15 @@
+version: 2
+updates:
+  # Wait 7 days before proposing a new version, so a bad release can be pulled first.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7

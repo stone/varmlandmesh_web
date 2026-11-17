@@ -1,0 +1,9 @@
+# Radio settings for the Värmland network. All pages read from here.
+preset: EU/UK (Narrow)
+frequency: "869.618" # MHz
+bandwidth: "62.5" # kHz
+sf: 8
+cr: 8
+region: se17
+channel: "#varmland"
+discord: https://discord.com/invite/gchSzHkPGG
