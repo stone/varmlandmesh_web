@@ -7,6 +7,7 @@ description: Så sätter du upp en MeshCore-repeater för Värmland Mesh.
 En repeater skickar vidare meddelanden mellan andra noder.
 Den gör nätet större för alla.
 Den står bäst på en hög plats med fri sikt, till exempel ett tak, en mast eller en kulle.
+Okänt ord? Se [ordlistan](../ordlista/).
 
 Instruktionerna bygger på [meshat.se](https://meshat.se/meshcore/satt-upp-egen-repeater/).
 
@@ -14,14 +15,24 @@ Instruktionerna bygger på [meshat.se](https://meshat.se/meshcore/satt-upp-egen-
 
 ### Installera repeater-firmware
 
-Öppna [flasher.meshcore.io](https://flasher.meshcore.io) i Chrome eller Edge.
-Välj din radio och firmware **Repeater**.
-Flasha radion.
+Flasha radion med firmware **Repeater**, se [Flasha firmware](../flasha/).
 Kommandona nedan skriver du i flasherns **Console**.
 
 ### Radioinställningar
 
 {{% radio-cmd %}}
+
+### Byt admin-lösenord
+
+Repeatern har lösenordet `password` från början.
+Med det kan vem som helst i närheten logga in och ändra repeatern.
+Byt till ett eget lösenord:
+
+```text
+password DittEgetLosenord
+```
+
+Spara lösenordet. Du behöver det för att logga in på repeatern från appen.
 
 ### Namn och position
 

@@ -1,0 +1,38 @@
+# Ordlista. Visas på /ordlista/ (Hextra layout: glossary), sorterad på term.
+- term: Advert
+  definition: Ett meddelande där din nod berättar att den finns. Andra noder i närheten ser då din nod.
+- term: Bandbredd
+  definition: Hur brett frekvensområde radion använder. Alla radior i nätet måste ha samma värde.
+- term: Bluetooth Low Energy
+  abbr: BLE
+  definition: Strömsnål Bluetooth. Telefonen pratar med radion via BLE.
+- term: Coding rate
+  abbr: CR
+  definition: Hur mycket extra data som skickas för att rätta fel. Alla radior i nätet måste ha samma värde.
+- term: Companion
+  definition: Firmware för en radio som du använder ihop med appen i telefonen.
+- term: Duty cycle
+  definition: Hur stor del av tiden en radio får sända. På den frekvens nätet använder är gränsen 10 %.
+- term: Firmware
+  definition: Programmet som körs i radion.
+- term: Flasha
+  definition: Att installera firmware på radion.
+- term: Kanal
+  definition: En grupp där alla som har gått med ser meddelandena. Public är öppen för alla MeshCore-användare.
+- term: LoRa
+  definition: Radioteknik som når långt med lite ström. MeshCore använder LoRa.
+- term: Mesh
+  definition: Ett nät där radiorna skickar vidare meddelanden åt varandra.
+- term: MeshCore
+  definition: Den firmware och app som Värmland Mesh använder.
+- term: MQTT
+  definition: Ett sätt att skicka data över internet. Vissa noder skickar det de hör till MQTT, så att det syns på kartor.
+- term: Nod
+  definition: En radio i nätet. Det kan vara din egen radio eller en repeater.
+- term: Region
+  definition: En etikett som styr vilka repeatrar som skickar vidare ett meddelande. Värmland har regionen se17.
+- term: Repeater
+  definition: En fast radio som skickar vidare meddelanden åt andra. Den står helst högt.
+- term: Spreading factor
+  abbr: SF
+  definition: Hur långsamt varje meddelande sänds. Högre värde når längre men tar mer sändningstid. Alla radior i nätet måste ha samma värde.

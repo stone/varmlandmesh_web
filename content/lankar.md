@@ -7,6 +7,10 @@ description: Bra länkar om MeshCore och Värmland Mesh.
 
 {{< cards >}}
   {{< card link="https://discord.com/invite/gchSzHkPGG" title="Discord" icon="chat" subtitle="Frågor, hjälp och planering av nätet." >}}
+  {{< card link="../kom-igang/" title="Kom igång" icon="light-bulb" subtitle="Från ny radio till första meddelandet." >}}
+  {{< card link="../flasha/" title="Flasha firmware" icon="chip" subtitle="Installera MeshCore från Windows eller Linux." >}}
+  {{< card link="../repeater/" title="Sätt upp en repeater" icon="status-online" subtitle="Gör nätet större för alla." >}}
+  {{< card link="../ordlista/" title="Ordlista" icon="book-open" subtitle="Ord och förkortningar förklarade." >}}
   {{< card link="../karta/" title="Karta" icon="map" subtitle="Noder i Värmland." >}}
   {{< card link="https://www.sk4av.se/" title="SK4AV" icon="status-online" subtitle="Karlstad Sändaramatörer. Radioklubb som också arbetar med mesh och LoRa." >}}
 {{< /cards >}}
