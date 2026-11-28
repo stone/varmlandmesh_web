@@ -1,0 +1,763 @@
+{
+ "schema": 1,
+ "generated": "2026-11-28T19:23:12.754034206Z",
+ "sources": {
+  "mqtt": {
+   "count": 63,
+   "ok": true
+  }
+ },
+ "bbox": {
+  "s": 58.8,
+  "n": 61.1,
+  "w": 11.6,
+  "e": 14.5
+ },
+ "count": 63,
+ "nodes": [
+  {
+   "id": "016c92fffb6cbdb7",
+   "key": "016c92fffb6cbdb7673ac8f74acf304bf361b051f4c5210dd234a18992ec5abb",
+   "name": "SE-KSD-Almarskogen-016c",
+   "type": "repeater",
+   "lat": 59.440436,
+   "lon": 13.472893,
+   "last": "2026-11-28T16:35:54.712099Z",
+   "advert": "2026-11-28T09:17:50.793889Z"
+  },
+  {
+   "id": "04eae7cd3a411cfb",
+   "key": "04eae7cd3a411cfb66c3c8dafd630cd9e82fddf8f58f5b88bd708042299c1ce3",
+   "name": "SE-Arvika-Graninge",
+   "type": "repeater",
+   "lat": 59.674921,
+   "lon": 12.604086,
+   "last": "2026-11-28T19:13:44.239816Z",
+   "advert": "2026-11-28T19:13:44.239816Z"
+  },
+  {
+   "id": "056a89a5f8b6c6df",
+   "key": "056a89a5f8b6c6dfc768bd1d7b15788e3fe8f6e9a98ebfff99c4f9c055a0311c",
+   "name": "SE-KSD-JoMo-Yttertjärn",
+   "type": "repeater",
+   "lat": 59.383881,
+   "lon": 13.741856,
+   "last": "2026-11-28T18:38:43.884143Z",
+   "advert": "2026-11-21T04:55:19.736887Z"
+  },
+  {
+   "id": "1297e152b83d9f0f",
+   "key": "1297e152b83d9f0ff6c349dda3d8cc04f338fc5e25dc389305549aad995cc69a",
+   "name": "SM4VWD-Test",
+   "type": "repeater",
+   "lat": 59.251752,
+   "lon": 14.440459,
+   "last": "2026-11-22T09:50:25.609748Z",
+   "advert": "2026-11-22T09:50:25.609748Z"
+  },
+  {
+   "id": "18f3344c6b548f63",
+   "key": "18f3344c6b548f636ab5be0e36f011206b048785d9c61705e6b4f0edf29972d6",
+   "name": "Skog SR1",
+   "type": "repeater",
+   "lat": 60.262939,
+   "lon": 12.88836,
+   "last": "2026-11-28T16:33:55.788049Z",
+   "advert": "2026-11-28T16:33:55.788049Z"
+  },
+  {
+   "id": "1961d700637cbeb3",
+   "key": "1961d700637cbeb3e0d6555940d7748cd6a0846da0a079f0dc8e97cb4ea996f6",
+   "name": "SE-KSD-Nobelgymnasiet",
+   "type": "repeater",
+   "lat": 59.39847,
+   "lon": 13.52228,
+   "last": "2026-11-28T16:53:29.713377Z",
+   "advert": "2026-11-28T16:53:29.713377Z"
+  },
+  {
+   "id": "205beefe82df19c7",
+   "key": "205beefe82df19c70e9ee238bd045fc0cac1a68332733b06e496b33514264042",
+   "name": "SE1715-SK4AV-1",
+   "type": "repeater",
+   "lat": 59.58622,
+   "lon": 13.30765,
+   "last": "2026-11-28T17:35:36.50293813Z",
+   "advert": "2026-11-28T17:35:36.50293813Z"
+  },
+  {
+   "id": "264eaa861247cbc6",
+   "key": "264eaa861247cbc6120b432d9147c67cedfdf7755f576a2301ff9dfeec051294",
+   "name": "SE-KSD-JoMo-Granviken",
+   "type": "repeater",
+   "lat": 59.406631,
+   "lon": 13.72593,
+   "last": "2026-11-28T16:39:37.340867Z",
+   "advert": "2026-11-28T16:39:37.340867Z"
+  },
+  {
+   "id": "344ba4270e5afff8",
+   "key": "344ba4270e5afff8fe350002d85cf81eb78fb54aa09bb9a1fbb58057aab2eeeb",
+   "name": "test ",
+   "type": "repeater",
+   "lat": 59.878074,
+   "lon": 12.341481,
+   "last": "2026-11-27T16:40:07.805337Z",
+   "advert": "2026-11-27T16:40:07.805337Z"
+  },
+  {
+   "id": "34df8a633a1e6e06",
+   "key": "34df8a633a1e6e06f65026982dd44c0ae054669fa046031921bab464a2303116",
+   "name": "SE1715-Säbyberget",
+   "type": "repeater",
+   "lat": 59.58398,
+   "lon": 13.30369,
+   "last": "2026-11-28T17:39:35.305474755Z",
+   "advert": "2026-11-28T17:39:35.305474755Z"
+  },
+  {
+   "id": "359598db132540ca",
+   "key": "359598db132540ca5f42bf2be634e381cea812897da4783ee106dcb868ec0ceb",
+   "name": "HammarMK-3",
+   "type": "repeater",
+   "lat": 59.32947,
+   "lon": 13.51345,
+   "last": "2026-11-27T21:25:52.195669Z",
+   "advert": "2026-11-27T21:25:52.195669Z"
+  },
+  {
+   "id": "3e2543be62079ab1",
+   "key": "3e2543be62079ab13dab1c0c8eb3a373d1fde09780c74ed304be96d0dfb93888",
+   "name": "SE1781-SolarREP",
+   "type": "repeater",
+   "lat": 59.31051,
+   "lon": 14.11612,
+   "last": "2026-11-28T18:55:11.915306Z",
+   "advert": "2026-11-28T18:55:11.915306Z"
+  },
+  {
+   "id": "3fe28bc66db1354e",
+   "key": "3fe28bc66db1354e465167d77a224076729049f6bfc54ccab6f6207093a99edb",
+   "name": "SE1785-Råtakahöjden",
+   "type": "repeater",
+   "lat": 59.402612,
+   "lon": 12.518099,
+   "last": "2026-11-28T17:02:29.415123Z",
+   "advert": "2026-11-28T17:02:29.415123Z"
+  },
+  {
+   "id": "45a4b185382938a7",
+   "key": "45a4b185382938a7ed7b455873d9c752cc3a07df8fcca41f1ae7ef3ad4873e20",
+   "name": "SE1715-Kil 1",
+   "type": "repeater",
+   "lat": 59.50117,
+   "lon": 13.31413,
+   "last": "2026-11-27T18:16:29.68975Z",
+   "advert": "2026-11-27T18:16:29.68975Z"
+  },
+  {
+   "id": "45d1492e35a33980",
+   "key": "45d1492e35a33980e77e27a43cee6665ca9858f0364e89a25ceeeff79a3743e0",
+   "name": "SE1715-SäbyRoomObs",
+   "type": "room",
+   "lat": 59.58258,
+   "lon": 13.317607,
+   "last": "2026-11-28T19:22:53.994433136Z",
+   "advert": "2026-11-28T15:50:40.038293835Z"
+  },
+  {
+   "id": "46e3de161322041d",
+   "key": "46e3de161322041df8749fd86b3687f33e77038464072c2c09c728528c196f2c",
+   "name": "SE1862-Karlshagen",
+   "type": "repeater",
+   "lat": 59.249003,
+   "lon": 14.437156,
+   "last": "2026-11-28T19:22:50.49227Z",
+   "advert": "2026-11-28T16:11:21.906233Z"
+  },
+  {
+   "id": "47801d16cefd874c",
+   "key": "47801d16cefd874cc555c1359e86f39b1da2c2dcaef328f418cc6706f377313d",
+   "name": "SE-KSD-65672R",
+   "type": "repeater",
+   "lat": 59.418869,
+   "lon": 13.680704,
+   "last": "2026-11-28T15:28:30.085302Z",
+   "advert": "2026-11-28T15:28:30.085302Z"
+  },
+  {
+   "id": "4825cef6c68313f6",
+   "key": "4825cef6c68313f68d4dd9d1429564ae23bdb13a9ae297d58b8a0b66d60a5f37",
+   "name": "SE1781-O132REP",
+   "type": "repeater",
+   "lat": 59.30767,
+   "lon": 14.10907,
+   "last": "2026-11-27T14:46:45.392663Z",
+   "advert": "2026-11-24T09:51:12.296304Z"
+  },
+  {
+   "id": "4cd95d41b5f8eca0",
+   "key": "4cd95d41b5f8eca06c90d12edcb82da73510dd1e474c05b9cde12914649063c1",
+   "name": "SE1783-Värmullsåsen",
+   "type": "repeater",
+   "lat": 60.01555,
+   "lon": 13.7299,
+   "last": "2026-11-28T19:18:41.133953Z",
+   "advert": "2026-11-28T18:46:53.956356Z"
+  },
+  {
+   "id": "4e9f86d07ceb6180",
+   "key": "4e9f86d07ceb618027ac64ba2d8bfd12803b85b9c8fe5a04aab11194bb7cb3cf",
+   "name": "SE1781-klippel.se",
+   "type": "repeater",
+   "lat": 59.099554,
+   "lon": 14.107291,
+   "last": "2026-11-28T19:22:56.082306Z",
+   "advert": "2026-11-28T19:22:56.082306Z"
+  },
+  {
+   "id": "50aba146b1ac9ceb",
+   "key": "50aba146b1ac9ceb7297d5b73b8f13ce7b64669a189be54287bc8f8fa0da4b01",
+   "name": "SE1862-Nordhojd",
+   "type": "repeater",
+   "lat": 59.228175,
+   "lon": 14.375905,
+   "last": "2026-11-28T18:16:00Z",
+   "advert": "2026-11-28T17:54:39.704007Z"
+  },
+  {
+   "id": "50ba5da240dd72d0",
+   "key": "50ba5da240dd72d092e5074147cd008b23873abd715edda9f1335465174ef425",
+   "name": "SE-KSD-65672RD",
+   "type": "repeater",
+   "lat": 59.41894,
+   "lon": 13.68037,
+   "last": "2026-11-28T06:34:59.921146Z",
+   "advert": "2026-11-28T06:34:59.921146Z"
+  },
+  {
+   "id": "556e6c5e3cde01c0",
+   "key": "556e6c5e3cde01c0924ba7fa0d72583e0f84df51002a419374350a9dfbab379e",
+   "name": "SE 65671 BÅTHAMN",
+   "type": "repeater",
+   "lat": 59.409034,
+   "lon": 13.672308,
+   "last": "2026-11-28T17:45:59.44878Z",
+   "advert": "2026-11-17T23:52:13.87214Z"
+  },
+  {
+   "id": "5861136f713e07f5",
+   "key": "5861136f713e07f55e7f7ade5c0f15b61525d53362655b83054f2f44b525a80d",
+   "name": "SE1781-NärkevägenREP",
+   "type": "repeater",
+   "lat": 59.31097,
+   "lon": 14.13753,
+   "last": "2026-11-28T18:27:38.864428Z",
+   "advert": "2026-11-28T18:27:38.864428Z"
+  },
+  {
+   "id": "5866f11cdc8e06dc",
+   "key": "5866f11cdc8e06dc5cf390d98c1dd2c12f01fa24c6b5d57b4304b96be2af2566",
+   "name": "SE-KSD-Himlabacken",
+   "type": "repeater",
+   "lat": 59.38924,
+   "lon": 13.45857,
+   "last": "2026-11-28T09:15:36.472947Z",
+   "advert": "2026-11-28T09:15:36.472947Z"
+  },
+  {
+   "id": "5a38d010ce8aee0a",
+   "key": "5a38d010ce8aee0a5d5041fc2609a0d1ba40aa35dfffb0f52fe59026ceb43bda",
+   "name": "SE-KSD-Tuggelite",
+   "type": "repeater",
+   "lat": 59.4234,
+   "lon": 13.43903,
+   "last": "2026-11-27T20:01:07.279406Z",
+   "advert": "2026-11-27T20:01:07.279406Z"
+  },
+  {
+   "id": "60f6d8332f58f6dc",
+   "key": "60f6d8332f58f6dc470b0e8cdd1b36a220959c659e3ee04dc4acf1ad73d8e11b",
+   "name": "SE-KSD-JoMo-Grantopp",
+   "type": "repeater",
+   "lat": 59.40539,
+   "lon": 13.72487,
+   "last": "2026-11-28T18:20:08.683093Z",
+   "advert": "2026-11-28T18:20:08.683093Z"
+  },
+  {
+   "id": "62978ddba353cb1c",
+   "key": "62978ddba353cb1c59f4b88ad9a1e173f177816f96b9bf3d0a60f40cae30b41d",
+   "name": "SE1715-Hökberget",
+   "type": "repeater",
+   "lat": 59.56164,
+   "lon": 13.37547,
+   "last": "2026-11-28T17:38:24.019162002Z",
+   "advert": "2026-11-28T17:38:24.019162002Z"
+  },
+  {
+   "id": "6336e304edd0e753",
+   "key": "6336e304edd0e7533760726c5d18b1b82ed42301f394c2738766cad4b4bea636",
+   "name": "SE1780-SkareRoom",
+   "type": "room",
+   "lat": 59.4337,
+   "lon": 13.4313,
+   "last": "2026-11-28T08:14:52.859941Z",
+   "advert": "2026-11-28T08:14:52.859941Z"
+  },
+  {
+   "id": "73d533291e2183b8",
+   "key": "73d533291e2183b842160e50bd510e925abab54ab382714b2a8726b969508b01",
+   "name": "SE-KSD-Våxnäs-Room",
+   "type": "room",
+   "lat": 59.387005,
+   "lon": 13.46004,
+   "last": "2026-11-28T19:19:57.204817Z",
+   "advert": "2026-11-28T00:08:15.199838Z"
+  },
+  {
+   "id": "74b5ec889b26b94c",
+   "key": "74b5ec889b26b94c5cc0e488aaa1328c3c867dbcffd7465bf23c80d5ead6291e",
+   "name": "SE1715-Kil-Trångsta",
+   "type": "repeater",
+   "lat": 59.555381,
+   "lon": 13.26385,
+   "last": "2026-11-28T17:57:36.235979Z",
+   "advert": "2026-11-28T17:57:36.235979Z"
+  },
+  {
+   "id": "7fbe93c0976d9608",
+   "key": "7fbe93c0976d96089efa4a6a7cac7da7f2f99d1c70bfa7a6da139ed94407f996",
+   "name": "SE-Eda Charlottenberg",
+   "type": "repeater",
+   "lat": 59.876952,
+   "lon": 12.342274,
+   "last": "2026-11-28T13:52:53.907257Z",
+   "advert": "2026-11-28T13:52:53.907257Z"
+  },
+  {
+   "id": "82bdd0c6e611243c",
+   "key": "82bdd0c6e611243ca503166b81153596ac7fc2999f592444ce6f958e20d205b7",
+   "name": "SE-SkareRoom",
+   "type": "repeater",
+   "lat": 59.434004,
+   "lon": 13.431769,
+   "last": "2026-11-19T12:06:29.985697Z",
+   "advert": "2026-11-19T12:06:29.001615Z"
+  },
+  {
+   "id": "846a105bb0609324",
+   "key": "846a105bb06093248e03a8c499c163106417c05f6dec17a446b933033409b5d3",
+   "name": "SE1715-Fagerås",
+   "type": "repeater",
+   "lat": 59.52271,
+   "lon": 13.24105,
+   "last": "2026-11-28T08:58:57.109815Z",
+   "advert": "2026-11-18T04:53:25.154125Z"
+  },
+  {
+   "id": "84a24c9d137d9ad9",
+   "key": "84a24c9d137d9ad937004fa2e547e5ffe7b5da2b1822b9524c24560b1a98c085",
+   "name": "SE-Gullik",
+   "type": "companion",
+   "lat": 59.111026,
+   "lon": 14.165967,
+   "last": "2026-11-20T12:55:52.433485Z",
+   "advert": "2026-11-20T12:55:52.433485Z"
+  },
+  {
+   "id": "905001b85990c155",
+   "key": "905001b85990c155dd6d285e23a728c2aa54eaa10fcf3eebf2df9481072df30a",
+   "name": "SE1715-Storstrandhöjd",
+   "type": "repeater",
+   "lat": 59.587318,
+   "lon": 12.97663,
+   "last": "2026-11-27T21:50:12.549784Z",
+   "advert": "2026-11-27T21:50:12.549784Z"
+  },
+  {
+   "id": "922d9c32ae047680",
+   "key": "922d9c32ae04768056dfd3619c6ff8c48e76f8db22fb3cd77afd17f8169bfb6b",
+   "name": "SE-KSD-Hammarö-Djupsun",
+   "type": "repeater",
+   "lat": 59.34549,
+   "lon": 13.489292,
+   "last": "2026-11-28T10:33:29.43388Z",
+   "advert": "2026-11-28T10:33:29.43388Z"
+  },
+  {
+   "id": "93085e2a398fe1ee",
+   "key": "93085e2a398fe1ee76eb5a7c5fdbd6e24d94255c6579d1812eac44a29bb707c4",
+   "name": "SM4TFE_Room",
+   "type": "room",
+   "lat": 59.317593,
+   "lon": 14.481294,
+   "last": "2026-11-28T18:40:31.715921Z",
+   "advert": "2026-11-28T18:40:31.715921Z"
+  },
+  {
+   "id": "96d4fee967f211d2",
+   "key": "96d4fee967f211d26e90b7f696615b2da7737e00f46cda82bb746fc945c79c41",
+   "name": "Anonymous",
+   "type": "companion",
+   "lat": 59.052985,
+   "lon": 12.704508,
+   "last": "2026-11-19T18:04:44.351543Z",
+   "advert": "2026-11-19T18:04:44.351543Z"
+  },
+  {
+   "id": "970812574fa5aa4c",
+   "key": "970812574fa5aa4c4629fc67c5160f26ae863985cb42f231e933f8aec6193ad2",
+   "name": "SE-KSD-Stodene-9708",
+   "type": "repeater",
+   "lat": 59.448207,
+   "lon": 13.429673,
+   "last": "2026-11-28T19:22:55.798042Z",
+   "advert": "2026-11-28T14:59:17.319605Z"
+  },
+  {
+   "id": "a2727ab7773bec9f",
+   "key": "a2727ab7773bec9ff2caad236b23c46c0f7b7c87139c7a22a7ff55c5420eb165",
+   "name": "SE1492-Amal-Rep01",
+   "type": "repeater",
+   "lat": 59.056938,
+   "lon": 12.71093,
+   "last": "2026-11-28T19:19:32.275346Z",
+   "advert": "2026-11-28T16:41:49.164875Z"
+  },
+  {
+   "id": "a75348b8135f3085",
+   "key": "a75348b8135f3085f0966fc44739b9f6d77bfa124c5e87b7f71f444624d98861",
+   "name": "SE-KSD-SkareRep",
+   "type": "repeater",
+   "lat": 59.433899,
+   "lon": 13.4317,
+   "last": "2026-11-28T16:35:55.712099Z",
+   "advert": "2026-11-28T13:06:56.951655Z"
+  },
+  {
+   "id": "a9856bfc7ba0c1f4",
+   "key": "a9856bfc7ba0c1f454c0050690dad5e22e77b24de7a9587a0ab1c16cacb62e27",
+   "name": "SM4TFE_Dual",
+   "type": "companion",
+   "lat": 59.85002,
+   "lon": 13.13005,
+   "last": "2026-11-27T04:56:10.695119Z",
+   "advert": "2026-11-27T04:56:10.695119Z"
+  },
+  {
+   "id": "ac6751b9c5359589",
+   "key": "ac6751b9c53595890576e8b27a1c7023f52a23ad56de36901e1946f477470408",
+   "name": "SE1783-Mossberg",
+   "type": "repeater",
+   "lat": 60.15653,
+   "lon": 13.50082,
+   "last": "2026-11-28T02:54:34.388255Z",
+   "advert": "2026-11-28T02:54:34.388255Z"
+  },
+  {
+   "id": "acfec7262fd4c702",
+   "key": "acfec7262fd4c702b83c8759dd71e7d88b096c715768db21db74df75f2927ac3",
+   "name": "SE1862-Kungshag",
+   "type": "repeater",
+   "lat": 59.120281,
+   "lon": 14.377265,
+   "last": "2026-11-28T13:41:52.559041Z",
+   "advert": "2026-11-28T13:41:52.559041Z"
+  },
+  {
+   "id": "ad5639ba1fcb3ba9",
+   "key": "ad5639ba1fcb3ba9d4988f587383dece340a1e924f00a449a638b122a39a0185",
+   "name": "SE-KSD-Bäckäng",
+   "type": "repeater",
+   "lat": 59.374136,
+   "lon": 13.870099,
+   "last": "2026-11-28T13:59:47.945917Z",
+   "advert": "2026-11-28T13:59:47.945917Z"
+  },
+  {
+   "id": "af4529fec0f714a0",
+   "key": "af4529fec0f714a0eac8edda04524b960ff6f05af4b96b45aaa04e2dc1480ccc",
+   "name": "SE-KSD-KAU0 Repeater",
+   "type": "repeater",
+   "lat": 59.404008,
+   "lon": 13.581894,
+   "last": "2026-11-28T16:23:06.879182Z",
+   "advert": "2026-11-20T13:37:08.058503Z"
+  },
+  {
+   "id": "b1e02feb78a0d839",
+   "key": "b1e02feb78a0d8390f017a612ec7b6cd359ffe9e37fa3c30c042cb032aa7d6f8",
+   "name": "SM4URM-10",
+   "type": "companion",
+   "lat": 59.448058,
+   "lon": 13.429331,
+   "last": "2026-11-26T15:59:46.266646Z",
+   "advert": "2026-11-26T15:59:46.266646Z"
+  },
+  {
+   "id": "b69d89881b0cb9c6",
+   "key": "b69d89881b0cb9c6df30afdf13b8d65a4ddba6cbe8ac88794434295e00f8269f",
+   "name": "SA4JPK-9",
+   "type": "companion",
+   "lat": 59.555395,
+   "lon": 13.263973,
+   "last": "2026-11-27T19:57:52.68714Z",
+   "advert": "2026-11-27T19:57:52.68714Z"
+  },
+  {
+   "id": "b7f7afef1ee3ac5d",
+   "key": "b7f7afef1ee3ac5de7ff3faeb7493af712285b402f70e77fc3abd9aaee90ec17",
+   "name": "SE1780_SK4AV-hm",
+   "type": "repeater",
+   "lat": 59.42313,
+   "lon": 13.484999,
+   "last": "2026-11-28T19:18:09.934889Z",
+   "advert": "2026-11-28T19:18:09.934889Z"
+  },
+  {
+   "id": "be0b1631bbe8f04a",
+   "key": "be0b1631bbe8f04a5d960b2ededd1b57e149f09797a106cc81311b8eea1e787e",
+   "name": "SE1737-Bengtsfallshöjd",
+   "type": "repeater",
+   "lat": 60.273258,
+   "lon": 12.920739,
+   "last": "2026-11-28T12:03:39.927797Z",
+   "advert": "2026-11-28T12:03:39.927797Z"
+  },
+  {
+   "id": "c590aa3f4430ca65",
+   "key": "c590aa3f4430ca65ad65d06d47800aab553bdb1e37d3bd34a924b3bb754bf04e",
+   "name": "SE1783-HagforsAirport",
+   "type": "repeater",
+   "lat": 60.02549,
+   "lon": 13.582549,
+   "last": "2026-11-28T18:38:03.833301Z",
+   "advert": "2026-11-28T18:38:03.833301Z"
+  },
+  {
+   "id": "d2fccf51d98ec90d",
+   "key": "d2fccf51d98ec90d388f905b9fa884e53f02a6330c23c77f2e62e7e7b25390af",
+   "name": "SE1783-Mo-Gröcken",
+   "type": "repeater",
+   "lat": 60.182721,
+   "lon": 13.344658,
+   "last": "2026-11-28T17:28:22.567Z",
+   "advert": "2026-11-28T17:28:22.567Z"
+  },
+  {
+   "id": "d64f7380cd28fa8c",
+   "key": "d64f7380cd28fa8ce5aaf8b728504e4f5f4851b972c0047aefdcc700214db5f3",
+   "name": "SE-KSD-Hultsberg",
+   "type": "repeater",
+   "lat": 59.39035,
+   "lon": 13.44267,
+   "last": "2026-11-27T22:27:57.978798Z",
+   "advert": "2026-11-27T22:27:57.978798Z"
+  },
+  {
+   "id": "d7fb26fc2e48f5ad",
+   "key": "d7fb26fc2e48f5ada4dc124e67706ae817e2b2c22d4298ea7f6cd408c83272cf",
+   "name": "SE-KSD-Tormestad",
+   "type": "repeater",
+   "lat": 59.384567,
+   "lon": 13.530874,
+   "last": "2026-11-27T02:48:42.890261Z",
+   "advert": "2026-11-27T02:48:42.890261Z"
+  },
+  {
+   "id": "d9ba5e0ec1acae11",
+   "key": "d9ba5e0ec1acae111d02cb0bb3321af439c2c5979f7786f9c0d2ddfe84e35c4d",
+   "name": "SE-ARVIKA-DEGERANGEN",
+   "type": "repeater",
+   "lat": 59.66077,
+   "lon": 12.60763,
+   "last": "2026-11-28T14:11:36.237904Z",
+   "advert": "2026-11-28T04:52:27.476399Z"
+  },
+  {
+   "id": "e5cf875c78f72ad1",
+   "key": "e5cf875c78f72ad148a7e6dc44c95df58dcedc52e05093bfeaf01cb9605e6ea3",
+   "name": "SE-KSD-KAU1 Repeater",
+   "type": "repeater",
+   "lat": 59.40406,
+   "lon": 13.58161,
+   "last": "2026-11-28T15:49:09.4928Z",
+   "advert": "2026-11-28T15:49:09.4928Z"
+  },
+  {
+   "id": "e746c0e6a9af2e9c",
+   "key": "e746c0e6a9af2e9cc33a2c4646d64597add38e4bcbff7a61fb25bb643ab962c9",
+   "name": "SE-KSD-Hammarö-Jonsbol",
+   "type": "repeater",
+   "lat": 59.337142,
+   "lon": 13.501866,
+   "last": "2026-11-28T16:59:22.191781Z",
+   "advert": "2026-11-28T16:59:22.191781Z"
+  },
+  {
+   "id": "e773e1a9666689e0",
+   "key": "e773e1a9666689e02a9bba7866e8555931bf2102533ab035ac2facd36edbf6ce",
+   "name": "SE1780-Smedstadberget",
+   "type": "repeater",
+   "lat": 59.4729,
+   "lon": 13.2756,
+   "last": "2026-11-28T16:36:01.712099Z",
+   "advert": "2026-11-28T15:47:19.829020547Z"
+  },
+  {
+   "id": "f0347766f7a9d2c2",
+   "key": "f0347766f7a9d2c2c7dab2c3a1f9f1b2822a03aca45a90fb86108595c3992692",
+   "name": "holonet",
+   "type": "room",
+   "lat": 59.654487,
+   "lon": 12.591738,
+   "last": "2026-11-28T06:44:14.201755Z",
+   "advert": "2026-11-28T06:44:14.201755Z"
+  },
+  {
+   "id": "f4d1d0fea82e9a04",
+   "key": "f4d1d0fea82e9a0471cbce74cf83992a638d80d7db8de588b23acb012d528703",
+   "name": "SE1783-Observer",
+   "type": "repeater",
+   "lat": 60.180217,
+   "lon": 13.359715,
+   "last": "2026-11-28T19:21:15.254004Z",
+   "advert": "2026-11-28T17:25:18.718845Z"
+  },
+  {
+   "id": "f706a730b0b7c36f",
+   "key": "f706a730b0b7c36f3bf0140981d664dbf7ca856f40acb8907f12daa05118db78",
+   "name": "📠 SE1715 DD Term",
+   "type": "companion",
+   "lat": 59.580437,
+   "lon": 13.312133,
+   "last": "2026-11-28T13:05:01.450777Z",
+   "advert": "2026-11-28T13:05:01.450777Z"
+  },
+  {
+   "id": "fa045126bdfa2d9e",
+   "key": "fa045126bdfa2d9eb1a172a9e0c5e47a60951159fca9bdca32da77fce46e6a07",
+   "name": "SE-EDA  Observer",
+   "type": "repeater",
+   "lat": 59.883684,
+   "lon": 12.337969,
+   "last": "2026-11-28T19:20:45.356115Z",
+   "advert": "2026-11-28T13:35:35.012929Z"
+  }
+ ],
+ "links": [
+  {
+   "a": "016c92fffb6cbdb7",
+   "b": "970812574fa5aa4c",
+   "snr": 6.25,
+   "heard": "2026-11-28T16:35:54.712099Z",
+   "count": 16
+  },
+  {
+   "a": "1297e152b83d9f0f",
+   "b": "46e3de161322041d",
+   "snr": 13,
+   "heard": "2026-11-22T09:50:25Z",
+   "count": 12
+  },
+  {
+   "a": "205beefe82df19c7",
+   "b": "45d1492e35a33980",
+   "snr": 12.75,
+   "heard": "2026-11-28T10:59:03Z",
+   "count": 16
+  },
+  {
+   "a": "205beefe82df19c7",
+   "b": "970812574fa5aa4c",
+   "snr": -10.5,
+   "heard": "2026-11-27T21:35:43.712099Z",
+   "count": 4
+  },
+  {
+   "a": "34df8a633a1e6e06",
+   "b": "45d1492e35a33980",
+   "snr": 11.75,
+   "heard": "2026-11-28T10:59:05Z",
+   "count": 16
+  },
+  {
+   "a": "34df8a633a1e6e06",
+   "b": "970812574fa5aa4c",
+   "snr": -11.25,
+   "heard": "2026-11-27T21:39:34.712099Z",
+   "count": 6
+  },
+  {
+   "a": "45d1492e35a33980",
+   "b": "62978ddba353cb1c",
+   "snr": -3,
+   "heard": "2026-11-28T10:59:02Z",
+   "count": 16
+  },
+  {
+   "a": "45d1492e35a33980",
+   "b": "e773e1a9666689e0",
+   "snr": -7.25,
+   "heard": "2026-11-28T10:59:00Z",
+   "count": 16
+  },
+  {
+   "a": "46e3de161322041d",
+   "b": "50aba146b1ac9ceb",
+   "snr": 4,
+   "heard": "2026-11-28T18:16:00Z",
+   "count": 17
+  },
+  {
+   "a": "4cd95d41b5f8eca0",
+   "b": "c590aa3f4430ca65",
+   "snr": 9.5,
+   "heard": "2026-11-28T09:36:05Z",
+   "count": 16
+  },
+  {
+   "a": "5a38d010ce8aee0a",
+   "b": "970812574fa5aa4c",
+   "snr": 0.75,
+   "heard": "2026-11-27T20:00:32.712099Z",
+   "count": 2
+  },
+  {
+   "a": "62978ddba353cb1c",
+   "b": "970812574fa5aa4c",
+   "snr": 0,
+   "heard": "2026-11-28T09:38:25.712099Z",
+   "count": 16
+  },
+  {
+   "a": "82bdd0c6e611243c",
+   "b": "970812574fa5aa4c",
+   "snr": -2,
+   "heard": "2026-11-19T12:06:29.985697Z",
+   "count": 1
+  },
+  {
+   "a": "970812574fa5aa4c",
+   "b": "a75348b8135f3085",
+   "snr": -7.75,
+   "heard": "2026-11-28T16:35:55.712099Z",
+   "count": 11
+  },
+  {
+   "a": "970812574fa5aa4c",
+   "b": "b7f7afef1ee3ac5d",
+   "snr": -11.5,
+   "heard": "2026-11-28T16:17:17.712099Z",
+   "count": 11
+  },
+  {
+   "a": "970812574fa5aa4c",
+   "b": "e773e1a9666689e0",
+   "snr": 1.25,
+   "heard": "2026-11-28T16:36:01.712099Z",
+   "count": 16
+  }
+ ]
+}
